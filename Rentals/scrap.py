@@ -40,3 +40,12 @@
     # for i in card:
     #    txt = i.string.strip()
     #    cards.append(txt)
+# ----------------------------------------------------------------------------
+# doc =requests.get('https://www.buyrentkenya.com/houses-for-rent?page=11')
+# soup = bsoup(doc.content, 'html.parser')
+
+# max_len= soup.find_all('div',class_='flex items-center justify-center text-xl font-bold leading-7 text-grey-900')
+# for i in max_len:
+#     print(i.text)
+    
+# max_len = np.int64(max_len[-1].string.strip())
